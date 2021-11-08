@@ -2,11 +2,11 @@ import boto3, os, sys, json, logging
 
 # Set the global variables
 globalVars  = {}
-globalVars['Owner']                 = "Miztiik"
+globalVars['Owner']                 = "Dunamis"
 globalVars['Environment']           = "Development"
-globalVars['REGION_NAME']           = "eu-central-l"
+globalVars['REGION_NAME']           = "us-east-1"
 globalVars['tagName']               = "Serverless-GuardDuty-Findings-To-CloudWatch-Events"
-globalVars['SNSTopicArn']           = ""
+globalVars['SNSTopicArn']           = "arn:aws:sns:us-west-2:464599248654:Dunamis-GuarDuty-SNS"
 
 sns_client = boto3.client('sns')
 
