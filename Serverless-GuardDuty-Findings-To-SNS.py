@@ -6,7 +6,7 @@ globalVars['Owner']                 = "Dunamis"
 globalVars['Environment']           = "Development"
 globalVars['REGION_NAME']           = "us-east-1"
 globalVars['tagName']               = "Serverless-GuardDuty-Findings-To-CloudWatch-Events"
-globalVars['SNSTopicArn']           = "arn:aws:sns:us-west-2:464599248654:Dunamis-GuarDuty-SNS"
+globalVars['SNSTopicArn']           = "arn:aws:sns:us-west-2:464599248654:Dunamis-GuardDuty-SNS"
 
 sns_client = boto3.client('sns')
 
